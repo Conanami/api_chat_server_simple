@@ -1,0 +1,21 @@
+{
+  "name": "chat_server_js",
+  "version": "1.0.2",
+  "main": "app.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cache": "^3.0.0",
+    "cors": "^2.8.5",
+    "cuid": "^2.1.8",
+    "express": "^4.16.1",
+    "express-ws": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
